@@ -48,7 +48,7 @@
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": " \uf308 {{.Context}} :: {{if .Namespace}}{{.Namespace}}{{else}}default{{end}} ",
+          "template": " \uf308 {{.Context}} - {{if .Namespace}}{{.Namespace}}{{else}}default{{end}} ",
           "type": "kubectl"
         },
         {
